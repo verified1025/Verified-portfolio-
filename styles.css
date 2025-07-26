@@ -1,0 +1,80 @@
+/* General Reset and Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #007BFF;
+}
+
+header, footer {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 2em;
+}
+
+/* Section Wrapper */
+.timeline {
+  margin: 4em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.timeline h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  color: #007BFF;
+}
+
+.timeline p {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 2em;
+  color: #333;
+}
+
+/* Flashcard Styling */
+.flashcard {
+  background-color: #ffffff;
+  border: 1px solid #007BFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.1);
+  width: 280px;
+  padding: 1em;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flashcard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0, 123, 255, 0.2);
+}
+
+.flashcard img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  border: 1px solid #e0e0e0;
+}
+
+.flashcard h3 {
+  margin: 0.5em 0;
+  color: #007BFF;
+  font-size: 1.2em;
+}
+
+.flashcard p {
+  font-size: 0.95em;
+  color: #333;
+}
